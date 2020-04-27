@@ -1,0 +1,10 @@
+.idea/
+
+.DS_Store
+
+# Log files
+log/
+
+go.sum
+
+*.iml

@@ -1,0 +1,28 @@
+
+
+
+# mysql connect configuration
+mysql:
+  username: ccdr
+  password: 'ccdr'
+  path: '127.0.0.1:3306'
+  db-name: 'ccdr'
+  config: 'charset=utf8&parseTime=True&loc=Local'
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: true
+
+
+# redis configuration
+redis:
+  addr: '39.108.87.83:6379'
+  password: 'Zpp8.08.'
+  db: 0
+
+
+# logger configuration
+log:
+  prefix: '[crawler]'
+  log-file: true
+  stdout: 'DEBUG'
+  file: 'DEBUG'

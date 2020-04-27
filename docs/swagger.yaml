@@ -1,0 +1,27 @@
+info:
+  contact: {}
+  license: {}
+paths:
+  /fileUploadAndDownload/breakpointContinue:
+    post:
+      consumes:
+      - multipart/form-data
+      parameters:
+      - description: an example for breakpoint resume, 断点续传示例
+        in: formData
+        name: file
+        required: true
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"上传成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 测试链接到服务器
+      tags:
+      - ExaFileUploadAndDownload
+swagger: "2.0"
