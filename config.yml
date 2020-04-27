@@ -15,8 +15,8 @@ mysql:
 
 # redis configuration
 redis:
-  addr: '39.108.87.83:6379'
-  password: 'Zpp8.08.'
+  addr: 'addr:6379'
+  password: 'redis_pass'
   db: 0
 
 
