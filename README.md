@@ -1,4 +1,4 @@
-### 初始化一个项目 do something
+### 创建一个空项目 do something
 
 
 #### go go go
